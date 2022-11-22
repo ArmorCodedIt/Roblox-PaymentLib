@@ -52,5 +52,5 @@ end
 print("Checkpoint 3")
 --Next function
 
-Notify("Finished", "Auth Library Loaded")
+NotifyWithIcon("Finished", "Auth Library Loaded", "https://ethapi.armorcodeditlol.repl.co/files/images/rnd-logo.png")
 print("Sent Notification")
