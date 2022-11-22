@@ -6,6 +6,7 @@
 --https://ethapi.armorcodeditlol.repl.co/docs/Roblox-PaymentLib
 --get a function from loadstring to save space
 loadstring(game:HttpGet("https://ethapi.armorcodeditlol.repl.co/api/scripts/notif.lua"))()--notification library
+loadstring(game:HttpGet("https://github.com/ArmorCodedIt/Roblox-PaymentLib/Library/hook.lua"))()--webhook library
 local MS = game:GetService("MarketplaceService")
 local plr = game:GetService("Players").LocalPlayer
 local Workspace = game:GetService("Workspace")
@@ -52,5 +53,5 @@ end
 print("Checkpoint 3")
 --Next function
 
-NotifyWithIcon("Finished", "Auth Library Loaded", "https://ethapi.armorcodeditlol.repl.co/files/images/rnd-logo.png")
+NotifyWithIcon("Finished", "Auth Library Loaded", "rbxasset://11633432738")
 print("Sent Notification")
