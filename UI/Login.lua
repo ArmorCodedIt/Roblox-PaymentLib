@@ -95,7 +95,7 @@ UICorner_5.Parent = Exit
 local function AODF_fake_script() -- Login_2.LocalScript
 	local script = Instance.new('LocalScript', Login_2)
 
-	loadstring(game:HttpGet("https://github.com/ArmorCodedIt/Roblox-PaymentLib/Library/lib.lua"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ArmorCodedIt/Roblox-PaymentLib/main/Library/lib.lua"))()
 	local user = script.Parent.Parent.Username.Text
 	local pass = script.Parent.Parent.Password.Text
 
@@ -114,7 +114,7 @@ end
 coroutine.wrap(HTBBNAI_fake_script)()
 --[[
 Required:
-loadstring(game:HttpGet("https://github.com/ArmorCodedIt/Roblox-PaymentLib/Library/lib.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ArmorCodedIt/Roblox-PaymentLib/main/Library/lib.lua"))()
 local user = PATH.TO.USER.Text
 local pass = PATH.TO.PASS.Text
 script.Parent.MouseButton1Down:Connect(function ()
