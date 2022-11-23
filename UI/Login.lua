@@ -4,7 +4,7 @@
 Host your own UI
 Scroll to the last line to see required scripts
 ]]
-url = "<INPUT SITE URL>"--Input your Auth.php url here
+url = "<INPUT AUTH URL>"--Input your Auth.php url here
 local Login_UI = Instance.new("ScreenGui")
 local Login = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
