@@ -3,17 +3,17 @@ local HttpService = game:GetService("HttpService")
 function webhook(url, title, message)
 local webhook = url
 local dataFields = {
-  ["username"]="RPL Hook Service",
-  ["avatar_url"]="https://ethapi.armorcodeditlol.repl.co/files/images/rnd-logo.png",
-  ["embeds"]={
-    ["author"]={
-      ["name"]="Armor#5780",
-      ["url"]="https://ethapi.armorcodeditlol.repl.co",
-      ["icon_url"]="https://ethapi.armorcodeditlol.repl.co/user_profiles/admin/profile_pic.png"
+  "username" ="RPL Hook Service",
+  "avatar_url"="https://ethapi.armorcodeditlol.repl.co/files/images/rnd-logo.png",
+  "embeds"={
+    "author"={
+      "name"="Armor#5780",
+      "url"="https://ethapi.armorcodeditlol.repl.co",
+      "icon_url"="https://ethapi.armorcodeditlol.repl.co/user_profiles/admin/profile_pic.png"
     },
-    ["title"]=title,
-    ["url"]="https://github.com/ArmorCodedIt/Roblox-PaymentLib",
-    ["description"]=message
+    "title"=title,
+    "url"="https://github.com/ArmorCodedIt/Roblox-PaymentLib",
+    "description"=message
   }
 }
 
