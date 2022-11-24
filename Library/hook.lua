@@ -21,7 +21,7 @@ local dataFields = {
 -- Other APIs might use JSON, XML or some other format
 local data = ""
 for k, v in pairs(dataFields) do
-	data = data .. ("&%s=%s"):format(HttpService:UrlEncode(k), HttpService:UrlEncode(v))
+	data = data .. ("&%s=%s"):format(HttpService:JSONEncode(k), HttpService:JSONEncode(v))
 end
 data = data:sub(2) -- Remove the first &
 
