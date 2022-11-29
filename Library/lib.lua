@@ -51,6 +51,5 @@ end
 print("Checkpoint 3")
 --Next function
 --Hopefully webhook fixed!
-webhook("https://discord.com/api/webhooks/1044540856629207070/MEvIt_o-57BZU_8e3GXeF8nlVme9C-ocJ4jRu7VXIkk-wklCgV5-_thmu3eZJDfD_h25", "Test", "Test Message!")
 NotifyWithIcon("Finished", "Auth Library Loaded", "rbxasset://10836756860")
 print("Sent Notification")
