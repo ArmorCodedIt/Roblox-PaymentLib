@@ -29,7 +29,6 @@ function GamePassBuy(id)
 	MS:PromptPurchase(plr, id)
 --end of function GamePassBuy()
 end
-
 --Checkpoint 2
 print("Checkpoint 2")
 --auth middleman
