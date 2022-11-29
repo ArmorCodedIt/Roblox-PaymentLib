@@ -25,7 +25,7 @@ end
 print("Checkpoint 1")
 --start of function GamePassBuy()
 function GamePassBuy(id)
-	MS:PromptPurchase(plr, id)
+	MS:PromptPurchase(plr.UserId, id)
 --end of function GamePassBuy()
 end
 --Checkpoint 2
