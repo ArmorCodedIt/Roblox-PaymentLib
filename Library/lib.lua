@@ -6,7 +6,6 @@
 --https://ethapi.armorcodeditlol.repl.co/docs/Roblox-PaymentLib
 --get a function from loadstring to save space
 loadstring(game:HttpGet("https://ethapi.armorcodeditlol.repl.co/api/scripts/notif.lua"))()--notification library
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ArmorCodedIt/Roblox-PaymentLib/main/Library/hook.lua"))()--webhook library
 local MS = game:GetService("MarketplaceService")
 local plr = game:GetService("Players").LocalPlayer
 local Workspace = game:GetService("Workspace")
